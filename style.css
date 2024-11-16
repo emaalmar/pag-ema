@@ -6,7 +6,6 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Header styles */
 h1 {
   text-align: center;
   color: #333;
@@ -29,20 +28,20 @@ h1 {
 }
 
 #intro-table {
-  margin: 0 auto; /* Centra la tabla horizontalmente */
-  border-collapse: collapse; /* Opcional: colapsa los bordes */
-  width: 80%; /* Ajusta el ancho según sea necesario */
-  text-align: left; /* Ajusta el alineamiento del texto */
+  margin: 0 auto; 
+  border-collapse: collapse; 
+  width: 80%; 
+  text-align: left; 
 }
 
 #intro th, #intro td {
-  border: 1px solid #ddd; /* Opcional: bordes de las celdas */
-  padding: 8px; /* Opcional: espaciado interno */
+  border: 1px solid #ddd; 
+  padding: 8px; 
 }
 
 #intro th {
-  background-color: #f4f4f4; /* Opcional: fondo de encabezados */
-  text-align: center; /* Centra el texto en los encabezados */
+  background-color: #f4f4f4; 
+  text-align: center; 
 }
 
 p, ul, ol {
@@ -59,7 +58,7 @@ li {
   margin-bottom: 8px;
 }
 
-/* Tables */
+
 table {
   width: 1000px;
   margin-top: 20px;
@@ -76,7 +75,6 @@ th {
   background-color: #f4f4f4;
 }
 
-/* Links */
 a {
   color: #1a73e8;
   text-decoration: none;
@@ -86,7 +84,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Images */
 img {
   max-width: 100%;
   height: auto;
@@ -94,7 +91,7 @@ img {
   margin: 20px 0;
 }
 
-/* Code blocks */
+
 code {
   background-color: #f4f4f4;
   padding: 5px 10px;
