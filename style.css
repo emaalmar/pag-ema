@@ -4,17 +4,18 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  color: ;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color: #000000;
   margin-top: 20px;
 
 }
 
 #prese{
-  color: #444;
+  color: #000000;
   margin-top: 30px;
   text-align: center;
   
@@ -22,27 +23,30 @@ h1 {
 }
 
 #intro{
-  color: #444;
+  color: #000000;
   margin-top: 30px;
   text-align: center;
 }
 
 #intro-table {
-  margin: 0 auto; 
-  border-collapse: collapse; 
-  width: 80%; 
-  text-align: left; 
+  margin: 1em auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000; 
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-#intro th, #intro td {
-  border: 1px solid #ddd; 
-  padding: 8px; 
+#intro-table th, #intro-table td {
+  border: 1px solid rgba(0, 0, 0, 0.6); 
+  padding: 10px 15px;
+  margin: 10px 0;
 }
 
-#intro th {
-  background-color: #f4f4f4; 
-  text-align: center; 
-}
+
 
 p, ul, ol {
   font-size: 16px;
